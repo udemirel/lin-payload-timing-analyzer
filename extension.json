@@ -1,0 +1,13 @@
+{
+  "name": "LIN Payload & Timing Analyzer",
+  "apiVersion": "1.0.0",
+  "author": "Ufuk Demirel",
+  "version": "1.0.0",
+  "description": "Measures net LIN data duration (D1 start to last data end) in microseconds and provides dynamic length tagging for Excel reporting.",
+  "extensions": {
+    "LIN Payload & Timing Analyzer": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
